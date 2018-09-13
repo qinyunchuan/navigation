@@ -15,3 +15,8 @@ Related stacks:
 
 For discussion, please check out the
 https://groups.google.com/group/ros-sig-navigation mailing list.
+
+For Install into the catkin workspace
+run:
+ * rosdep install --from-paths src --ignore-src -r -y
+before catkin_make
